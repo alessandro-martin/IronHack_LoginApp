@@ -14,6 +14,11 @@
 		A710FD4E19E691BF00D60382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A710FD4D19E691BF00D60382 /* Images.xcassets */; };
 		A710FD5119E691BF00D60382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A710FD4F19E691BF00D60382 /* LaunchScreen.xib */; };
 		A710FD5D19E691BF00D60382 /* LoginAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A710FD5C19E691BF00D60382 /* LoginAppTests.m */; };
+		A710FD6719E691E600D60382 /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A710FD6619E691E600D60382 /* UserTests.m */; };
+		A710FD6A19E692AB00D60382 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A710FD6919E692AB00D60382 /* User.m */; };
+		A710FD6D19E6999000D60382 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = A710FD6C19E6999000D60382 /* Users.m */; };
+		A710FD6F19E69C8E00D60382 /* UsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A710FD6E19E69C8E00D60382 /* UsersTests.m */; };
+		A710FD7119E6B73100D60382 /* users.plist in Resources */ = {isa = PBXBuildFile; fileRef = A710FD7019E6B73100D60382 /* users.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,13 @@
 		A710FD5619E691BF00D60382 /* LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A710FD5B19E691BF00D60382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A710FD5C19E691BF00D60382 /* LoginAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAppTests.m; sourceTree = "<group>"; };
+		A710FD6619E691E600D60382 /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
+		A710FD6819E692AB00D60382 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A710FD6919E692AB00D60382 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A710FD6B19E6999000D60382 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		A710FD6C19E6999000D60382 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		A710FD6E19E69C8E00D60382 /* UsersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTests.m; sourceTree = "<group>"; };
+		A710FD7019E6B73100D60382 /* users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = users.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,11 @@
 				A710FD4D19E691BF00D60382 /* Images.xcassets */,
 				A710FD4F19E691BF00D60382 /* LaunchScreen.xib */,
 				A710FD4019E691BF00D60382 /* Supporting Files */,
+				A710FD6819E692AB00D60382 /* User.h */,
+				A710FD6919E692AB00D60382 /* User.m */,
+				A710FD6B19E6999000D60382 /* Users.h */,
+				A710FD6C19E6999000D60382 /* Users.m */,
+				A710FD7019E6B73100D60382 /* users.plist */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -106,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				A710FD5C19E691BF00D60382 /* LoginAppTests.m */,
+				A710FD6619E691E600D60382 /* UserTests.m */,
+				A710FD6E19E69C8E00D60382 /* UsersTests.m */,
 				A710FD5A19E691BF00D60382 /* Supporting Files */,
 			);
 			path = LoginAppTests;
@@ -202,6 +221,7 @@
 				A710FD4C19E691BF00D60382 /* Main.storyboard in Resources */,
 				A710FD5119E691BF00D60382 /* LaunchScreen.xib in Resources */,
 				A710FD4E19E691BF00D60382 /* Images.xcassets in Resources */,
+				A710FD7119E6B73100D60382 /* users.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A710FD6A19E692AB00D60382 /* User.m in Sources */,
+				A710FD6D19E6999000D60382 /* Users.m in Sources */,
 				A710FD4919E691BF00D60382 /* ViewController.m in Sources */,
 				A710FD4619E691BF00D60382 /* AppDelegate.m in Sources */,
 				A710FD4319E691BF00D60382 /* main.m in Sources */,
@@ -229,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A710FD6719E691E600D60382 /* UserTests.m in Sources */,
+				A710FD6F19E69C8E00D60382 /* UsersTests.m in Sources */,
 				A710FD5D19E691BF00D60382 /* LoginAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
